@@ -1,0 +1,73 @@
+
+ .infoLine {
+    margin-top: 60px;
+    display: block;
+    min-width: 320px;
+    
+}
+.lastReviews {
+    margin-right: 8px;
+    display: inline-block;
+}
+.allReviews {
+    color: #005da1;
+    text-decoration: underline;
+}
+.social {
+    float: right;
+    
+}
+.likes {
+    font-size: 12px;
+    padding-left: 18px;
+    position: relative;
+    margin-right: 16px;
+    color: #333;
+    text-decoration: none;
+    display: inline;
+}
+.likes:before {
+    background: url(../Img/heart.svg);
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 13px;
+    height: 13px;
+    
+}
+.comments::before{
+    background: url(../Img/comm.svg);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 10px;
+    width: 13px;
+    height: 13px;
+
+}
+.comments {
+    font-size: 12px;
+    padding-left: 4px;
+    position: relative;
+    margin-right: 16px;
+    color: #333;
+    text-decoration: none;
+    padding-left: 18px;
+   
+}
+.likesImg .commentImg {
+    position: absolute;
+}
+
+@media only screen and (max-width : 360px) {
+	.social {
+		float: none;
+		margin-top: 10px;
+	}
+}
+
+
+

@@ -1,0 +1,80 @@
+
+.infoTable {
+    width: 100%;
+    max-width: 320px;
+    margin-left: auto;
+    font-size: 0.929em;
+    margin-top: 30px;
+    display: block;
+    
+}
+.tableTitle {
+    display: block;
+    width: 31.25%;
+    margin-left: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.tableServices {
+    width: 100%;
+    max-width: 320px;
+    border-collapse: separate;
+    border-spacing: 0 2px;
+    margin: 0;
+    padding: 11px 0;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    position: relative;
+}
+.tableItem {
+    width: 68.75%;
+    height: 24px;
+    position: relative;
+}
+.tableNumber {
+    font-weight: bold;
+    text-align: center;
+    height: 24px;
+}
+.tableText {
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+.line1 {
+    width: 100%;
+    background-color: #b1e19b;
+    height: 100%;
+    border-radius: 0 2px 2px 0;
+}
+.line2 {
+    width: 24.54%;
+    background-color: #ace2f8;
+    height: 100%;
+    border-radius: 0 2px 2px 0;
+}
+.line3 {
+    width: 16.36%;
+    background-color: #ace2f8;
+    height: 100%;
+    border-radius: 0 2px 2px 0;
+}
+.tableCount {
+    font-size: 1.143em;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-bottom: 25px;
+}
+.tableCountTotal {
+    width: 68.75%;
+    float: left;
+}
+.tableCountValue {
+    width: 31.25%;
+    float: right;
+    text-align: center;
+}

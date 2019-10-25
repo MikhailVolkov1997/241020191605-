@@ -1,0 +1,95 @@
+
+.userComment {
+    margin: 13px 10px 10px 10px;
+}
+.userName {
+    display: inline-block;
+    vertical-align: middle;
+}
+.commentTime {
+    font-size: 11px;
+    padding-left: 5px;
+}
+.commentText {
+    position: relative;
+    padding: 14px 15px 14px 20px;
+    border: 1px solid #cfcfcf;
+    background-color: #f2fbff;
+    margin-top: 11px;
+}
+.commentText:before {
+    border-color: #cfcfcf transparent transparent transparent;
+    border-width: 8px;
+    top: -8px;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    left: 15px;
+}
+.commentText:after {
+    border-color: #f2fbff transparent transparent transparent;
+    border-width: 6px;
+    top: -6px;
+    left: 18px;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+.inputContainer {
+    margin-top: 20px;
+    padding: 30px 0 35px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.textarea {
+    width: 100%;
+    max-width: 100%;
+    height: 65px;
+    border: 1px solid #a9a9a9;
+    border-radius: 2px;
+    margin: 13px 0px 10px 0px;
+}
+.inputSubmit {
+    height: 42px;
+    width: 100%;
+    max-width: 280px;
+    border: 0;
+    border-radius: 15px;
+    background-color: #fdd639;
+    font-weight: bold;
+    font-size: 1.143em;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.wrapper {
+    min-width: 360px;
+    max-width: 720px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #f2f2f2;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; 
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
